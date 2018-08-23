@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+
+.table {
+    text-align: center;
+    margin: auto;
+}
+
+#wrapper{
+    height: 100vh;
+    position: relative;
+    background: gainsboro;
+}
+
+#header{
+    height: 30px;
+    background: orange;
+    padding: 10px 20px;
+}
+
+.header_login{
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.header_username{
+    text-align: right;
+}
+
+#sidebar{
+    width: 160px;
+    padding: 0 20px;
+}
+
+#content{
+    position: absolute;
+    overflow: auto;
+    background: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.content_align_login{
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.content_align_inner{
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 200px;
+}
+
+.err_message{
+    color: red;
+}
